@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-CASCADE_PATH = r"C:\Users\chuen\miniconda3\envs\Arduino2Python\Lib\site-packages\cv2\data"
+CASCADE_PATH = r"./haar_cascades"
 
 face_haarcascade = os.path.join(CASCADE_PATH, "haarcascade_frontalface_default.xml")
 eye_haarcascade = os.path.join(CASCADE_PATH, "haarcascade_eye.xml")
